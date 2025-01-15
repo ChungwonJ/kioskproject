@@ -1,4 +1,4 @@
-package com.example.kiost_2;
+package com.example.Kiosk_3;
 
 public class MenuItem {
     private int id;

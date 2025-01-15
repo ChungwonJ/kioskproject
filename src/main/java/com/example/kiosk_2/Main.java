@@ -1,4 +1,4 @@
-package com.example.kiost_2;
+package com.example.kiosk_2;
 
 import java.util.ArrayList;
 import java.util.List;
