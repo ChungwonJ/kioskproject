@@ -3,7 +3,11 @@ package com.example.Kiosk_3;
 import java.util.Scanner;
 
 public class Kiosk {
-    private Menu menu = new Menu();
+    private Menu menu;
+
+    public Kiosk(Menu menu) {
+        this.menu = menu;
+    }
 
     public void start() {
         Scanner sc = new Scanner(System.in);
