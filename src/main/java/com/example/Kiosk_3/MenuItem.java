@@ -14,14 +14,6 @@ public class MenuItem {
     }
 
     public int getId() {return id;}
-    public String getName() {return name;}
-    public double getPrice() {return price;}
-    public String getText() {return text;}
-
-    public void setId(int id){ this.id = id;}
-    public void setName(String name){this.name = name;}
-    public void setPrice(double price){this.price = price;}
-    public void setText(String text){this.text = text;}
 
     @Override
     public String toString() {

@@ -16,7 +16,7 @@ public class Menu {
 
     // List에 들어있는 MenuItem을 순차적으로 보여주는 함수
     public void displayMenu() {
-        System.out.println("==== 메뉴 ====");
+        System.out.println("[ BURGERS MENU ] ");
         for (MenuItem item : menuItems) {
             System.out.println(item);
         }
