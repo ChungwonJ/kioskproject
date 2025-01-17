@@ -1,4 +1,4 @@
-package com.example.kiosk_2;
+package com.example.kiosk_5;
 
 public class MenuItem {
     private int id;
@@ -14,6 +14,8 @@ public class MenuItem {
     }
 
     public int getId() {return id;}
+    public String getName() {return name;}
+    public double getPrice() {return price;}
 
     @Override
     public String toString() {
