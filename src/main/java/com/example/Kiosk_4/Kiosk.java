@@ -1,10 +1,6 @@
 package com.example.Kiosk_4;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Stream;
-import java.util.*;
 
 public class Kiosk {
     private Menu menu;
